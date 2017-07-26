@@ -38,6 +38,9 @@ h3{
 	color: #8C6239;
 	}
 
+.pink {
+	color: #F03C86;
+}
 h4 {
 	text-align: left;
 	text-decoration: underline;
@@ -55,6 +58,38 @@ p{
 	font-weight: 300;
 }
 
+button {
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 1em;
+	color: #F03C86;
+	font-family: 'brandon-grotesque',sans-serif;
+	text-decoration: underline;
+	font-weight: 300;
+}
+
+button:hover{
+	font-weight: 500;
+	cursor: pointer;
+}
+
+button:focus{
+	outline: 0;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.container img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 0px;
+}
+
+
 /* A */
 
 a:link {
@@ -63,6 +98,7 @@ a:link {
 
 a:hover {
 	color: #F03C86;
+	font-weight: 500;
 	}
 
 a:visited {
@@ -75,7 +111,7 @@ a:visited {
 
 
 #landing {
-	margin-top:200px;
+	margin-top:10em;
 	background-color: #C5BFBD;
 	height: 600px;
 
@@ -94,21 +130,19 @@ a:visited {
 }
 
 #landing h3 {
-	width:50%;	
+	width:45%;	
 	margin:auto;
 	margin-bottom: 0.7em;
 }
 
-.container {
-	overflow: hidden;
-}
+#landing p {
+	text-align: center;
+	color: #F03C86;
+	margin-top: 3em;
+	font-weight: 100;
+	font-size: 40px;
 
-.container img {
-	max-width: 100%;
-	max-height: 100%;
-	border: 0px;
 }
-
 
 
 /* PROJECTS */
