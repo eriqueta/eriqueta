@@ -1,7 +1,7 @@
- /* *{
-	border: 0.5px dashed gray;
+ /*  *{
+	border: 0.2px dashed gray;
 }
-*/
+
 
 
 /* BASIC */
@@ -10,6 +10,7 @@ body, html {
 	padding: 0;
 	margin: 0;
 	height: 100%;
+	background: #C5BFBD;
 }
 
 body {
@@ -29,6 +30,7 @@ h1{
 	border: 0px;
 	margin: 0px;
 	margin-top: 10%;
+	line-height: 80%;
 	}
 
 h2 {
@@ -103,37 +105,128 @@ a:visited {
 	color: #F03C86;
 	}
 
-/* LANDING */
-
 .container {
-	width: 55%;
+	width: 75%;
 	margin: 0 auto;
+	border: 0px;
 }
 
-.read_more {
+span {
 	color: #F03C86;
-	text-align: center;
-	font-family: 'brandon-grotesque';
-	font-size: 2em;
-	font-weight: 100;
+	font-weight: 400; 
 }
 
 
+/* PAGE 1 */
 
+#page-1 .container {
+	width: 40%; 
+	margin: 0 auto;
+	border: 0px;
+}
 
 #page-1 {
-	background: rgb(188, 193, 207);
-	height: 1000px;
+	background: #C5BFBD;
+	height: 45em;
 	z-index: 3;
+	border: :0px;
+
 }
+
+#page-1 h1{
+	margin-top: 1.5em;
+}
+
+#page-1 p {
+	color: #F03C86;
+	text-align: center;
+	font-size: 0,5em;
+	font-weight: 100;
+	position: absolute;
+	bottom: 3em;
+	font-weight: 500;
+}
+
+/* PAGE 2 */
+
 #page-2 {
-	background: rgb(123, 178, 175);
+	background: #B8BFC7;
 	height: 100%;
 	z-index: 2;
+	margin-top: 0px;
 }
+
+.section {
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+}
+
+.cont {
+	overflow: hidden;
+	width: 70%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.cont_h {
+	overflow: hidden;
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.cont img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 0px;
+}
+
+#page-2 img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	transition: .8s ease;
+	filter: blur(1px);
+}
+
+.prjct {
+	height: 60em;
+}
+
+.prjct_h {
+	height: 45em;
+}
+
+.prjct_h p {
+	float: right;
+	width: 30% !important;
+	height: 100%;
+	margin: 0px;
+	margin-top: 39%;
+	color: black;
+	vertical-align: text-bottom;
+}
+
+.prjct p {
+	float: right;
+	width: 30% !important;
+	height: 100%;
+	margin: 0px;
+	margin-top: 5em;
+	color: black;
+	vertical-align: text-bottom;
+}
+
+/* PAGE 3 */
+
 #page-3 {
-	background: #E26A6A;
+	background: #C8BBD0;
 	z-index: 1;
+}
+
+#page-3 p{
+	color: black;
 }
 
 .page {
@@ -143,7 +236,6 @@ a:visited {
 	position: relative;
 	overflow: hidden;
 }
-
 
 .sp-fixed {
 	position: fixed;
