@@ -1,7 +1,7 @@
-$(document).ready(function() {
-
-	$(".page").stackpage({
-		parent: '.wrap'
+$(document).ready( function (){
+	$('.pink').hide ();
+	$('button').click (function(){
+		$('.pink').slideToggle();
 	});
-	
-});	
+
+});
