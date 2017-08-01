@@ -1,4 +1,4 @@
-*{
+/* *{
 	border: 0.1px dashed gray;
 }
 
@@ -198,11 +198,13 @@ span {
 }
 
 .prjct p {
-	width: 50% !important;
+	width: 30%;
 	height: 20%;
 	margin: 0;
+	margin-top: 50%;
 	color: black;
 	padding: 0;
+	float: right;
 }
 
 
@@ -227,12 +229,33 @@ span {
 	color: black;
 }
 
+/* solo last PAGE 2 */
+
+.prjct_last {
+	height: 45em;
+}
+
+.prjct_last .cont {
+	float: left;
+	height: 100%;
+	margin: 0;
+	color: black;
+}
+
+.prjct_last p {
+	width: 30%;
+	color: black;
+	float: right;
+	margin-top: 50%;
+}
+
 
 /* PAGE 3 */
 
 #page-3 {
 	background: #C8BBD0;
 	z-index: 1;
+	height: 900px;
 }
 
 #page-3 p{
@@ -245,6 +268,26 @@ span {
 	width: 40%;
 	float: right;
 }
+
+
+/* FOOTER */
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 10em;
+ 	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #C5BFBD;
+	text-align: center;
+}
+
+#footer h2{
+	margin-bottom: 0.5em !important;
+}
+
 
 
 /* OTROS */
